@@ -2,7 +2,7 @@ package hello
 
 import "fmt"
 
-var Version string
+var Version = "Version v1.1.0"
 
 func Hello() {
     switch Version {
